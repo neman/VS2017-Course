@@ -1,0 +1,15 @@
+﻿----------------------
+jsdoc example
+----------------------
+
+// Write your Javascript code.
+let elm = document.querySelector("#greeting");
+
+/**
+ * Add greeting text to the page
+ * @param {string} greeting The greeting text to update
+ */
+function hello(greeting) {
+    elm.textContent +=  `${greeting} World!!`;
+}
+hello("Hello")
